@@ -19,7 +19,7 @@ Now you can run the executable `./pcre-matcher-service` to start the server. It 
 
 ## Example
 
-Send a HTTP POST to http://localhost:5000/matchUrls with the following data:
+Send a HTTP POST to *http://localhost:5000/matchUrls* with the following data:
 
 ```
 {
