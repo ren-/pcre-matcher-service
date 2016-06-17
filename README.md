@@ -5,7 +5,7 @@
 1. Go environment setup https://golang.org/doc/install
 2. gcc `apt-get install gcc`
 3. libpcre++-dev `apt-get install pcre++-dev`
-4. Text file (.txt) with regexes. The format should be the following: "$regex\t$Context"
+4. Text file called *pcre.txt* with regexes. The format should be the following: "$regex\t$Context"
 Example: `^(\"|').+?\\1$\tI am a context string`
 
 ## Installing
