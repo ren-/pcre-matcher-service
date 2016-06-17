@@ -17,6 +17,16 @@ Example: `^(\"|').+?\\1$\tI am a context string`
 
 Now you can run the executable `./pcre-matcher-service` to start the server. It will bind on port 5000.
 
+## Example
+
+Send a HTTP POST to http://localhost:5000/matchUrls with the following data:
+
+```
+{
+  "urls":["http://google.com", "http://yahoo.com"]
+}
+```
+
 ## License
 
 Licensed under GNU GENERAL PUBLIC LICENSE, please read the LICENSE file.
