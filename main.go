@@ -54,7 +54,7 @@ func main() {
 	for i := 0; i < len(lines); i++ {
 		// Get the the regex
 		parts := strings.Split(lines[i], "\t")
-		reg, err := pcre.Compile(parts[0], pcre.CASELESS)
+		reg, err := pcre.Compile(parts[0], pcre.UTF8)
 		if err != nil {
 			fmt.Printf("Invalid regexp [%s]\n", parts[0])
 			fmt.Println(err)
