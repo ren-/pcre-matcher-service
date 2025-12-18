@@ -14,6 +14,7 @@ Example: `^(\"|').+?\\1$\tI am a context string`
 2. Locate `src/github.com/ren-/pcre-matcher-service` in your *$GOPATH*
 3. `go install`
 4. `go build`
+5. weee
 
 Now you can run the executable `./pcre-matcher-service` to start the server. It will bind on port 5000.
 
